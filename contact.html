@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nagisa</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Padyakke+Expanded+One&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="header__inner wrapper">
+            <a href="./index.html"><img class="header__logo" src="./img/logo.png" alt="logodamy"></a>
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="./about.html">ABOUT</a></li>
+                <li class="header__nav-item"><a href="./works.html">WORKS</a></li>
+                <li class="header__nav-item"><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+
+
+<section id="contact__form" class="contact__form">
+    <div class="contact__sub_inner">
+        <h2 class="heading__h2">CONTACT
+            <span class="heading__h2-jp">お問い合わせ</span>
+        </h2>
+    <div class="contact__form-container">
+        <form class="contact__form-list" action="#" method="post">
+            
+            <dl class="contact__item">
+                <dt><label for="yourname" class="form__item-label">Full Name / お名前<span>*</span></label></dt>
+                <dd><input type="text" id="yourname" class="form__item-input" placeholder="Full Name"></dd>
+
+                <!-- <dt><label for="companyname" class="form__item-label">会社名</label></dt>
+                <dd><input type="text" id="companyname" class="form__item-input"></dd> -->
+
+                <dt><label for="email" class="form__item-label">Email / メールアドレス<span>*</span></label></dt>
+                <dd><input type="text" id="email" class="form__item-input" placeholder="example@mail.com"></dd>
+
+                <!-- <dt><label for="tel" class="form__item-label">お電話番号<span>*（半角数字ハイフンなし）</span></label></dt>
+                <dd><input type="text" id="tel" class="form__item-input"></dd> -->
+
+                <dt><label for="comment" class="form__item-label">Message / 本文<span>*</span></label></dt>
+                <dd><textarea name="comment" id="comment" placeholder="ご用件をご記入ください"></textarea></dd>
+            </dl>
+       
+            <div class="send__btn"><a href="#">送信する</a></div>
+        </form>
+    </div>
+</div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nagisa</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Padyakke+Expanded+One&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+</head>
+
+<body>
+
+    <header id="header" class="header">
+        <div class="header__inner wrapper">
+            <a href="./index.html"><img class="header__logo" src="./img/logo.png" alt="logodamy"></a>
+
+            <!-- ハンバーガーボタン -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- ナビメニュー -->
+            <ul class="header__nav-list" id="nav-menu">
+                <li class="header__nav-item"><a href="./about.html">ABOUT</a></li>
+                <li class="header__nav-item"><a href="./works.html">WORKS</a></li>
+                <li class="header__nav-item"><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+
+    <!-- <div class="scene"> -->
+
+    <!-- メッセージ -->
+    <div class="hero">
+        <div class="hero-image">
+            <img src="./img/mv_back.png" class="bg-img" />
+            <img src="./img/mv.png" class="main-img main-img-pc" />
+            <img src="./img/mv_sp.png" class="main-img main-img-sp" />
+        </div>
+
+        <!-- ラッパーを追加 -->
+        <div class="hero-text-wrapper">
+            <div class="hero-text">
+                <h1>NAGISA<br>PORTFOLIO</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- </div> -->
+
+    <section id="about" class="about">
+        <div class="about__inner wrapper">
+            <h2 class="heading__h2 fade-in">ABOUT
+                <span class="heading__h2-jp">わたしについて</span>
+            </h2>
+
+            <div class="about__container">
+                <img class="about__image" src="./img/profile.png" alt="">
+                <div class="about__text">
+                    <p><span class="name">岡野 渚 - okano nagisa</span></p>
+                    <p>1991年生まれ。埼玉県在住。<br>
+                        育児休暇中にプログラミングのオンラインスクールを受講。 <br>
+                        現在、自宅子育てをしながら在宅でのお仕事に取り組んでいます。</p>
+                    <div class="more__btn">
+                        <a href="./about.html">MORE</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <div class="works__inner wrapper">
+            <h2 class="heading__h2 fade-in">WORKS
+                <span class="heading__h2-jp">制作実績</span>
+            </h2>
+            <!-- <div class="wrapper"> -->
+            <ul class="works__gallery-list">
+                <li class="works__gallery-item">
+                    <div class="img_wrapper">
+                        <img class="works_img" src="./img/works/event_OH.jpg" alt="住宅展示場バナー">
+                    </div>
+                    <p class="label__banner">banner</p>
+                    <p class="item__tit">住宅の完成見学会</p>
+                </li>
+                <li class="works__gallery-item">
+                    <div class="img_wrapper">
+                        <img class="works_img" src="./img/works/travel_01.jpg" alt="旅行キャンペーンバナー">
+                    </div>
+                    <p class="label__banner">banner</p>
+                    <p class="item__tit">旅行キャンペーン</p>
+                </li>
+                <li class="works__gallery-item">
+                    <div class="img_wrapper">
+                        <img class="works_img" src="./img/works/osechi_01.jpg" alt="ECサイト内「おせち特集」バナー">
+                    </div>
+                    <p class="label__banner">banner</p>
+                    <p class="item__tit">ECサイト内「おせち特集」</p>
+                </li>
+
+                <li class="works__gallery-item">
+                    <div class="img_wrapper">
+                        <img src="./img/works/pondesign.png" alt="website_01">
+                    </div>
+                    <p class="label__web">web site</p>
+                    <p class="item__tit">【架空サイト】</p>
+                </li>
+                <li class="works__gallery-item">
+                    <div class="img_wrapper">
+                        <img src="./img/works/anchor-construction.png" alt="website_02">
+                    </div>
+                    <p class="label__web">web site</p>
+                    <p class="item__tit">【架空サイト】</p>
+                </li>
+            </ul>
+            <div class="more__btn">
+                <a href="./works.html">VIEW MORE</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="TOOL" class="TOOL">
+        <div class="tool__inner wrapper">
+            <h2 class="heading__h2 fade-in">TOOL
+                <span class="heading__h2-jp">使用可能ツール</span>
+            </h2>
+            <ul class="tools__list">
+                <li class="tools__item-wrapper">
+                    <div class="img_wrapper">
+                        <img src="./img/htmlcss_icon.png" alt="hp_icon">
+                    </div>
+                    <h3 class="tools__item">HTML / CSS</h3>
+                    <p class="item__text">HPやLP、コーポレートサイトやバナーなどの制作。</p>
+                </li>
+                <li class="tools__item-wrapper">
+                    <div class="img_wrapper">
+                        <img src="./img/canva_icon.png" alt="canva_icon">
+                    </div>
+                    <h3 class="tools__item">Canva</h3>
+                    <p class="item__text">資料、マニュアル作成など。</p>
+                </li>
+                <li class="tools__item-wrapper">
+                    <div class="img_wrapper">
+                        <img src="./img/office_icon.png" alt="office_icon">
+                    </div>
+                    <h3 class="tools__item">Microsoft Office / Google</h3>
+                    <p class="item__text">Excel,Word,Microsoft Teams <br>
+                        Googleドキュメント <br>
+                        Googleスプレットシート</p>
+                </li>
+            </ul>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="contact__inner">
+            <h2 class="heading__h2">CONTACT
+                <span class="heading__h2-jp">お問い合わせ</span>
+            </h2>
+            <p class="contact__text">依頼・ご相談はこちらから。<br>
+                お気軽にご連絡ください。</p>
+            <div class="contact__btn">
+                <a href="./contact.html">contact</a>
+            </div>
+
+    </section>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <!-- <script>
+        $(document).ready(function () {
+            // 1秒後にメッセージをフェードイン表示
+            setTimeout(() => {
+                $(".hero").css({
+                    transform: "translate(-50%, -50%) scale(1)",
+                    opacity: 1
+                });
+            }, 1000);
+        });
+    </script> -->
+
+
+</body>
+
+
+</html>

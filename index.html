@@ -39,28 +39,20 @@
         </div>
     </header>
 
-
-
-
-    <!-- <div class="scene"> -->
-
-    <!-- メッセージ -->
     <div class="hero">
-        <div class="hero-image">
-            <img src="./img/mv_back.png" class="bg-img" />
-            <img src="./img/mv.png" class="main-img main-img-pc" />
-            <img src="./img/mv_sp.png" class="main-img main-img-sp" />
-        </div>
-
-        <!-- ラッパーを追加 -->
-        <div class="hero-text-wrapper">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="./img/mv_back.png" class="bg-img" />
+                <img src="./img/mv.png" class="main-img main-img-pc" />
+                <img src="./img/mv_sp.png" class="main-img main-img-sp" />
+            </div>
             <div class="hero-text">
                 <h1>NAGISA<br>PORTFOLIO</h1>
             </div>
         </div>
     </div>
 
-    <!-- </div> -->
+
 
     <section id="about" class="about">
         <div class="about__inner wrapper">
@@ -83,56 +75,70 @@
 
         </div>
     </section>
-
     <section id="works" class="works">
         <div class="works__inner wrapper">
             <h2 class="heading__h2 fade-in">WORKS
                 <span class="heading__h2-jp">制作実績</span>
             </h2>
-            <!-- <div class="wrapper"> -->
+
             <ul class="works__gallery-list">
                 <li class="works__gallery-item">
-                    <div class="img_wrapper">
-                        <img class="works_img" src="./img/works/event_OH.jpg" alt="住宅展示場バナー">
+                    <div class="image-label-wrap">
+                        <div class="img_wrapper">
+                            <img class="works_img" src="./img/works/event_OH.jpg" alt="住宅展示場バナー">
+                        </div>
+                        <p class="label__banner">banner</p>
                     </div>
-                    <p class="label__banner">banner</p>
                     <p class="item__tit">住宅の完成見学会</p>
                 </li>
+
                 <li class="works__gallery-item">
-                    <div class="img_wrapper">
-                        <img class="works_img" src="./img/works/travel_01.jpg" alt="旅行キャンペーンバナー">
+                    <div class="image-label-wrap">
+                        <div class="img_wrapper">
+                            <img class="works_img" src="./img/works/travel_01.jpg" alt="旅行キャンペーンバナー">
+                        </div>
+                        <p class="label__banner">banner</p>
                     </div>
-                    <p class="label__banner">banner</p>
                     <p class="item__tit">旅行キャンペーン</p>
                 </li>
+
                 <li class="works__gallery-item">
-                    <div class="img_wrapper">
-                        <img class="works_img" src="./img/works/osechi_01.jpg" alt="ECサイト内「おせち特集」バナー">
+                    <div class="image-label-wrap">
+                        <div class="img_wrapper">
+                            <img class="works_img" src="./img/works/osechi_01.jpg" alt="ECサイト内「おせち特集」バナー">
+                        </div>
+                        <p class="label__banner">banner</p>
                     </div>
-                    <p class="label__banner">banner</p>
                     <p class="item__tit">ECサイト内「おせち特集」</p>
                 </li>
 
                 <li class="works__gallery-item">
-                    <div class="img_wrapper">
-                        <img src="./img/works/pondesign.png" alt="website_01">
+                    <div class="image-label-wrap">
+                        <div class="img_wrapper">
+                            <img class="works_img" src="./img/works/pondesign.png" alt="website_01">
+                        </div>
+                        <p class="label__web">web site</p>
                     </div>
-                    <p class="label__web">web site</p>
                     <p class="item__tit">【架空サイト】</p>
                 </li>
+
                 <li class="works__gallery-item">
-                    <div class="img_wrapper">
-                        <img src="./img/works/anchor-construction.png" alt="website_02">
+                    <div class="image-label-wrap">
+                        <div class="img_wrapper">
+                            <img class="works_img" src="./img/works/anchor-construction.png" alt="website_02">
+                        </div>
+                        <p class="label__web">web site</p>
                     </div>
-                    <p class="label__web">web site</p>
                     <p class="item__tit">【架空サイト】</p>
                 </li>
             </ul>
+
             <div class="more__btn">
                 <a href="./works.html">VIEW MORE</a>
             </div>
         </div>
     </section>
+
 
 
 
@@ -179,23 +185,15 @@
             <div class="contact__btn">
                 <a href="./contact.html">contact</a>
             </div>
+            <div class="copyright"><small>&copy;2024 NAGISA OKANO </small></div>
+
 
     </section>
 
     <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="./js/script.js"></script>
 
-    <!-- <script>
-        $(document).ready(function () {
-            // 1秒後にメッセージをフェードイン表示
-            setTimeout(() => {
-                $(".hero").css({
-                    transform: "translate(-50%, -50%) scale(1)",
-                    opacity: 1
-                });
-            }, 1000);
-        });
-    </script> -->
+
 
 
 </body>

@@ -7,11 +7,8 @@ $(function () {
 
 
 $(document).ready(function () {
-    // 1秒後にメッセージをフェードイン表示
-    setTimeout(() => {
-        $(".hero").css({
-            transform: "translate(-50%, -50%) scale(1)",
-            opacity: 1
-        });
-    }, 1000);
+    // 1秒後に h1 要素をフェードイン
+    setTimeout(function () {
+        $(".hero-text h1").fadeIn(1000); // 1000 = 1秒かけてフェードイン
+    }, 1000); // 表示開始まで1秒待つ
 });

@@ -235,7 +235,7 @@ h2 {
     font-weight: bold;
     letter-spacing: 1.5px;
     color: #9e6f6e;
-/*      display: none; */
+     /* display: none; */
 }
 
 
@@ -754,3 +754,24 @@ textarea {
     /* margin-top: 80px; */
     font-size: 15px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .contact__form-container {
+        padding: 0 30px;
+        margin: 0 20px;
+    }
+    /* .contact__form-list{
+         margin: 0 20px;
+    } */
+     .form__item-input {
+        width: 100%;
+
+    }
+       textarea {
+        width: 100%;
+    }
+
+}
+

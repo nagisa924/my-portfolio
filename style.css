@@ -60,6 +60,10 @@ h2 {
     .wrapper {
         padding: 0 16px;
     }
+    .header__logo {
+    width: 126px;
+    height: 30px;
+}
 }
 
 .more__btn {

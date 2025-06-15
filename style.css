@@ -29,7 +29,7 @@ h2 {
     max-width: 1010px;
     margin: 0 auto 70px;
     padding: 50px 16px 0 16px;
-   
+    /* background-color: #fff; */
 }
 
 .heading__h2 {
@@ -118,11 +118,7 @@ h2 {
     color: #9e6f6e;
 }
 
-/* 
-.header__nav-item a:hover {
-    border-bottom: 1px solid #fff;
-    padding-top: 2.5px;
-} */
+
 .header__nav-item a {
     text-decoration: none;
     color: #9e6f6e;
@@ -184,6 +180,12 @@ h2 {
     .header__nav-item a {
         font-size: 18px;
     }
+    .header__nav-item a:hover {
+    font-weight: bold;
+    font-size: 18px;
+    transform: scale(1.05);
+    border-bottom: 1px solid #9e6f6e;
+}
 }
 
 /* 共通 */
@@ -774,4 +776,5 @@ textarea {
     }
 
 }
+
 

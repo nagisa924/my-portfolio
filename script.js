@@ -1,7 +1,17 @@
-// jQuery を使ったハンバーガーメニュー切り替え
-$('.hamburger').on('click', function () {
-    $('.header__nav-list').toggleClass('active');
-});
+ <script>
+        $(document).ready(function () {
+            $('#js-hamburger').on('click', function () {
+                // console.log("ハンバーガーメニューがクリック");
+                $('#header__nav').toggleClass('open');
+                $('#js-hamburger').toggleClass('open');
+                $('.header__nav-list').toggleClass('open');
+
+                // console.log("ナビゲーションのクラス:", $("#header__nav").attr("class"));
+                // console.log("ハンバーガーのクラス:", $("#js-hamburger").attr("class"));
+
+            });
+        });
+    </script>
 
 
 

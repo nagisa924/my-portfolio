@@ -366,6 +366,7 @@ h2 {
     }
 
     .hero-text h1 {
+        display: none; 
         font-size: 6vw;
         line-height: 1.5;
         word-break: keep-all;

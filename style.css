@@ -137,23 +137,6 @@ h2 {
     border-bottom: 1px solid #9e6f6e;
 }
 
-/* ハンバーガー初期非表示 */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 22px;
-    cursor: pointer;
-    z-index: 1000;
-}
-
-.hamburger span {
-    display: block;
-    height: 4px;
-    background-color: #9e6f6e;
-    border-radius: 2px;
-}
 
 
 @media screen and (max-width: 768px) {
@@ -196,6 +179,112 @@ h2 {
   .header__logo {
     width: 100px;
   }
+/*     ハンバーガー */
+    .header__hamburger {
+        width: 34px;
+        height: 100%;
+        z-index: 9999;
+
+
+    }
+
+    .hamburger {
+        position: relative;
+        top: 0;
+        right: 15px;
+        cursor: pointer;
+        width: 34px;
+        height: 16px;
+        z-index: 10001;
+    }
+
+    .hamburger span {
+        transition: all .3s;
+        position: absolute;
+        height: 2px;
+        background-color: #fff;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .hamburger span:nth-child(1) {
+        top: 3px;
+    }
+
+    .hamburger span:nth-child(2) {
+        top: 9px;
+    }
+
+    .hamburger span:nth-child(3) {
+        top: 15px;
+    }
+
+    .hamburger.open span:nth-of-type(1) {
+        top: 10px;
+        transform: translateY(6px) rotate(-45deg);
+    }
+
+    .hamburger.open span:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .hamburger.open span:nth-of-type(3) {
+        top: 22px;
+        transform: translateY(-6px) rotate(45deg);
+    }
+
+    .header__nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(155deg, #642390 0%, #19074A 100%) 0% 0% no-repeat padding-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+        transition: 0.5s;
+        z-index: 10;
+        opacity: 0;
+        pointer-events: none;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    .header__nav.open {
+        /* display: block; */
+        display: flex;
+        transform: translateX(0);
+        transition: transform 0.3s ease-in-out;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .header__nav-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+        gap: 20px;
+        /* color: #fff; */
+
+
+    }
+
+    .header__nav-item a {
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    .header__nav-item a:hover {
+        opacity: 0.8;
+    }
 }
 
 /* 共通 */

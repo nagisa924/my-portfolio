@@ -180,7 +180,7 @@ h2 {
   }
 
   .header__logo {
-    width: 100px;
+    width: 45px;
   }
 /*     ハンバーガー */
     .header__hamburger {
@@ -205,7 +205,7 @@ h2 {
         transition: all .3s;
         position: absolute;
         height: 2px;
-        background-color: #fff;
+        background-color:  #9e6f6e;
         width: 100%;
         z-index: 10;
     }

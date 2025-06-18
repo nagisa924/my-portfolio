@@ -29,12 +29,10 @@ h2 {
     max-width: 1010px;
     margin: 0 auto 70px;
     padding: 50px 16px 0 16px;
-    /* background-color: #fff; */
 }
 
 .heading__h2 {
     display: inline-flex;
-
     font-size: 56px;
     font-weight: bold;
     text-align: left;
@@ -52,7 +50,6 @@ h2 {
 h2 {
     display: flex;
     flex-direction: column;
-    /* color: #006400; */
     padding-bottom: 50px;
 }
 
@@ -76,8 +73,6 @@ h2 {
     color: #fff;
     border: 1px solid #C7D86D;
     background-color: #C7D86D;
-    /* border: 1px solid #D99D65;
-    background-color: #D99D65; */
     font-size: 15px;
     padding-top: 18px;
     text-align: center;
@@ -98,7 +93,7 @@ h2 {
 
 
 .header__logo {
-    width: 120px; /* お好みで調整可 */
+    width: 120px; 
     height: auto;
 }
 
@@ -208,7 +203,7 @@ h2 {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: linear-gradient(155deg, #642390 0%, #19074A 100%);
+        background: linear-gradient(155deg, #f8f0d6 0%, #ffe38a 100%);
         display: flex;
         justify-content: center;
         align-items: center;

@@ -506,7 +506,8 @@ h2 {
 
 .label__banner,
 .label__web,
-.label__document {
+.label__document,
+.label__writing {
     width: 106px;
     height: 25px;
     text-align: center;
@@ -540,6 +541,13 @@ h2 {
     margin: 8px 0;
 }
 
+.label__writing {
+    border: 1px solid #a4b4e8;
+    background-color:#a4b4e8;
+    border-radius: 5px;
+    color: #fff;
+    margin: 8px 0;
+}
 .more__btn {
     margin-top: 50px;
 }
